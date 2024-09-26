@@ -11,6 +11,7 @@ payload:
   - DOMAIN-KEYWORD,okx.com
   
   # bybit
+  - DOMAIN-KEYWORD,byapps
   - DOMAIN-KEYWORD,bybit
   - DOMAIN-KEYWORD,bycsi
   - DOMAIN-KEYWORD,bytick
