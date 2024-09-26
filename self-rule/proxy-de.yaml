@@ -1,11 +1,25 @@
 # clash
 payload:
-  # bank
-  - DOMAIN-KEYWORD,bybit
+  # N26
   - DOMAIN-SUFFIX,n26.com
   - DOMAIN-SUFFIX,number26.de
   - DOMAIN-SUFFIX,tech26.de
+  - DOMAIN-KEYWORD,26.de
+  # 欧易
   - DOMAIN-KEYWORD,okx.com
-
-  # esim
+  # bybit
+  - DOMAIN-KEYWORD,bybit
+  - DOMAIN-KEYWORD,bycsi
+  - DOMAIN-KEYWORD,bytick
+  - DOMAIN-KEYWORD,byapis
+  - DOMAIN-KEYWORD,bycbe
+  - DOMAIN-KEYWORD,bybdc6
+  - DOMAIN-KEYWORD,byd3c3
+  - DOMAIN-KEYWORD,bitverse
+  - DOMAIN-KEYWORD,appsflyersdk
+  - DOMAIN-KEYWORD,geetest
+  - DOMAIN-KEYWORD,byabcde
+  - DOMAIN-SUFFIX,ffe390afd658c19dcbt707e0597b846d.de
+  - DOMAIN-SUFFIX,ffbbbdc6d3c353211fe2ba39c9f744cd.com
+  # vodafone.de
   - DOMAIN-SUFFIX,vodafone.de
