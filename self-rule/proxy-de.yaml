@@ -1,0 +1,9 @@
+# clash
+payload:
+  # bank
+  - DOMAIN-SUFFIX,bybit.com
+  - DOMAIN-SUFFIX,n26.com
+  - DOMAIN-KEYWORD,okx.com
+
+  # esim
+  - DOMAIN-SUFFIX,vodafone.de
