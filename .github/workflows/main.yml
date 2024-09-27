@@ -16,3 +16,4 @@ jobs:
           owner: OxygenLost
           base: master
           head: master
+          ignore_fail: true
