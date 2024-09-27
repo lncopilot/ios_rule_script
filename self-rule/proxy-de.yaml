@@ -1,5 +1,7 @@
 # clash
 payload:
+  # 德国🇩🇪
+  - DOMAIN-KEYWORD,.de
   # N26
   - DOMAIN-SUFFIX,n26.com
   - DOMAIN-SUFFIX,number26.de
