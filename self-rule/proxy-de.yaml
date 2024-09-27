@@ -35,5 +35,6 @@ payload:
   # wise
   - DOMAIN-SUFFIX,authy.com
   - DOMAIN-SUFFIX,wise.com
+  - DOMAIN-SUFFIX,fra-01.braze.eu
   
 
