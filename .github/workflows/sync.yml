@@ -1,34 +1,25 @@
-name: Upstream Sync
-
-permissions:
-    contents: write
-
+name: Merge upstream branches
 on:
-    schedule:
-        - cron: "0 0 * * *"
-    workflow_dispatch:
-
+  push:
+  schedule:
+    - cron:  '0 18 * * *'
+  watch:
+    types: [started]
 jobs:
-    sync_with_upstream:
-        name: Sync with Upstream
-        runs-on: ubuntu-latest
-        if: ${{ github.event.repository.fork }}
-
-        steps:
-            - name: Checkout target repo
-              uses: actions/checkout@v3
-
-            - name: Sync Upstream
-              uses: aormsby/Fork-Sync-With-Upstream-action@v3.4
-              with:
-                  target_repo_token: ${{ secrets.GITHUB_TOKEN }}
-                  upstream_sync_repo: blackmatrix7/ios_rule_script
-                  upstream_sync_branch: master
-                  target_sync_branch: master
-                  test_mode: false
-
-            - name: Check for Failure
-              if: failure()
-              run: |
-                  echo "[Error] Due to a change in the workflow file of the upstream repository, GitHub has automatically suspended the scheduled automatic update. You need to manually sync your fork."
-                  exit 1
+  merge:
+    runs-on: ubuntu-latest
+    if: github.event.repository.owner.id == github.event.sender.id
+    steps:
+      - uses: actions/checkout@v2.3.5
+      - name: Merge upstream
+        run: |
+          git config --global user.name 'OxygenLost'
+          git config --global user.email 'oxygenlostx@gmail.com'
+          git pull --unshallow
+          git remote add upstream https://github.com/blackmatrix7/ios_rule_script.git
+          git fetch upstream
+          git checkout master
+          git merge --no-edit upstream/master
+          git push origin master
+          git fetch upstream --tags
+          git push --tags
