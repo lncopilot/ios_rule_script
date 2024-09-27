@@ -28,3 +28,7 @@ payload:
   
   # vodafone.de
   - DOMAIN-SUFFIX,vodafone.de
+
+  # bonify
+  - DOMAIN-SUFFIX,bonify.de
+
