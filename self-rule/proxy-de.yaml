@@ -32,3 +32,8 @@ payload:
   # bonify
   - DOMAIN-SUFFIX,bonify.de
 
+  # wise
+  - DOMAIN-SUFFIX,authy.com
+  - DOMAIN-SUFFIX,wise.com
+  
+
