@@ -14,11 +14,12 @@ payload:
   - DOMAIN-SUFFIX,gvt1.com
   - DOMAIN-SUFFIX,netflixgc.com
   - DOMAIN-SUFFIX,128648.xyz
- # - DOMAIN-SUFFIX,akile.io
   - DOMAIN-SUFFIX,dandanplay.net
   - DOMAIN-SUFFIX,flystar.site
   - DOMAIN-SUFFIX,nnr.moe
   - DOMAIN-SUFFIX,mi-dun.com
+  # ustc
+  - DOMAIN-SUFFIX,ustc.edu.cn
 
   ## PT
   - DOMAIN,1337.abcvg.info
