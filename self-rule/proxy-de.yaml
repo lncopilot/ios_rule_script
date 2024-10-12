@@ -43,3 +43,6 @@ payload:
   # trading212
   - DOMAIN-SUFFIX,trading212.com
 
+  # Fiat24
+  - DOMAIN-SUFFIX,fiat24.com
+
