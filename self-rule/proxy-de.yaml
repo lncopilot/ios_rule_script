@@ -46,3 +46,6 @@ payload:
   # Fiat24
   - DOMAIN-SUFFIX,fiat24.com
 
+  # Metamask
+  - DOMAIN-SUFFIX,metamask.io
+
