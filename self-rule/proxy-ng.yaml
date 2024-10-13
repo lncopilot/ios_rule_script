@@ -1,0 +1,4 @@
+# clash
+payload:
+  # Chipper
+  - DOMAIN-SUFFIX,chippercash.com
