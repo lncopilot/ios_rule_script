@@ -49,3 +49,6 @@ payload:
   # Metamask
   - DOMAIN-SUFFIX,metamask.io
 
+  # curve
+  - DOMAIN-SUFFIX,curve.app
+
