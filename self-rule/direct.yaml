@@ -20,6 +20,9 @@ payload:
   - DOMAIN-SUFFIX,mi-dun.com
   # ustc
   - DOMAIN-SUFFIX,ustc.edu.cn
+  # github
+  - DOMAIN-SUFFIX,github.site
+  - DOMAIN-SUFFIX,github.store
 
   ## PT
   - DOMAIN,1337.abcvg.info
