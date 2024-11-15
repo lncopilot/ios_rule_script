@@ -1,0 +1,29 @@
+# clash
+# Apple 全球 CDN
+payload:
+    # iOS App Store
+    - DOMAIN,iosapps.itunes.apple.com
+    - USER-AGENT,com.apple.appstored*
+    # Mac App Store
+    - DOMAIN,osxapps.itunes.apple.com
+    - DOMAIN,oscdn.apple.com
+    # PROCESS-NAME,storedownloadd
+    # 更新
+    - DOMAIN,supportdownload.apple.com
+    # 更新
+    - DOMAIN,appldnld.apple.com
+    # 更新
+    - DOMAIN,swcdn.apple.com
+    - DOMAIN,apptrailers.itunes.apple.com
+    - DOMAIN,updates-http.cdn-apple.com
+    - DOMAIN,updates.cdn-apple.com
+    # App Store 和 iTunes 图片
+    - DOMAIN-SUFFIX,mzstatic.com
+    # Apple Music 流媒体
+    - DOMAIN,aod.itunes.apple.com
+    - DOMAIN,mvod.itunes.apple.com
+    - DOMAIN,streamingaudio.itunes.apple.com
+    # 其他
+    - DOMAIN,download.developer.apple.com
+    - DOMAIN,downloaddispatch.itunes.apple.com
+    - DOMAIN,app-site-association.cdn-apple.com
