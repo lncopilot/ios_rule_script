@@ -24,6 +24,9 @@ payload:
   - DOMAIN-SUFFIX,github.site
   - DOMAIN-SUFFIX,github.store
 
+  # ewlink
+  - DOMAIN-SUFFIX,ewelink.cc
+  - DOMAIN-SUFFIX,coolkit.cc
   ## PT
   - DOMAIN,1337.abcvg.info
   - DOMAIN,1c.premierzal.ru
