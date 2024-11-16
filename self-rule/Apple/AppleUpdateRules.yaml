@@ -19,3 +19,4 @@ payload:
     - DOMAIN-SUFFIX,ocsp.g.aaplimg.com
     - DOMAIN-SUFFIX,gg.apple.com
     - DOMAIN-SUFFIX,swscan.apple.com
+    - DOMAIN-SUFFIX,bpapi.apple.com,DIRECT

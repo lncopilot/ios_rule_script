@@ -1,55 +1,55 @@
 # clash
 payload:
     # 苹果 Siri
-    - DOMAIN-SUFFIX,guzzoni.apple.com,DIRECT
+    - DOMAIN-SUFFIX,guzzoni.apple.com
     # 苹果 App Store
-    - DOMAIN-SUFFIX,apps.apple.com,DIRECT
+    - DOMAIN-SUFFIX,apps.apple.com
     # 苹果 XP
-    - DOMAIN-SUFFIX,xp.apple.com,DIRECT
+    - DOMAIN-SUFFIX,xp.apple.com
     # iTunes Store
-    - DOMAIN-SUFFIX,bag.itunes.apple.com,DIRECT
-    - DOMAIN-SUFFIX,api-edge.apps.apple.com,DIRECT
-    - DOMAIN-SUFFIX,api.apps.apple.com,DIRECT
-    - DOMAIN-SUFFIX,play.itunes.apple.com,DIRECT
-    - DOMAIN-SUFFIX,se.itunes.apple.com,DIRECT
-    - DOMAIN-SUFFIX,se-edge.itunes.apple.com,DIRECT
-    - DOMAIN-SUFFIX,su.itunes.apple.com,DIRECT
-    - DOMAIN-SUFFIX,upp.itunes.apple.com,DIRECT
+    - DOMAIN-SUFFIX,bag.itunes.apple.com
+    - DOMAIN-SUFFIX,api-edge.apps.apple.com
+    - DOMAIN-SUFFIX,api.apps.apple.com
+    - DOMAIN-SUFFIX,play.itunes.apple.com
+    - DOMAIN-SUFFIX,se.itunes.apple.com
+    - DOMAIN-SUFFIX,se-edge.itunes.apple.com
+    - DOMAIN-SUFFIX,su.itunes.apple.com
+    - DOMAIN-SUFFIX,upp.itunes.apple.com
     # 苹果音乐测试版
-    - DOMAIN-SUFFIX,beta.music.apple.com,DIRECT
+    - DOMAIN-SUFFIX,beta.music.apple.com
     # iTunes Store 购买
-    - DOMAIN-KEYWORD,buy.itunes.apple.com,DIRECT
+    - DOMAIN-KEYWORD,buy.itunes.apple.com
     # iTunes 的 Akamai CDN
-    - DOMAIN-SUFFIX,itunes-apple.com.akadns.net,DIRECT
+    - DOMAIN-SUFFIX,itunes-apple.com.akadns.net
     # 游戏中心
-    - DOMAIN-SUFFIX,service.gc.apple.com,DIRECT
+    - DOMAIN-SUFFIX,service.gc.apple.com
     # iCloud 设置
-    - DOMAIN-SUFFIX,setup.icloud.com,DIRECT
+    - DOMAIN-SUFFIX,setup.icloud.com
     # 苹果 ID
-    - DOMAIN-SUFFIX,appleid.apple.com,DIRECT
+    - DOMAIN-SUFFIX,appleid.apple.com
     # 游戏中心
-    - DOMAIN-SUFFIX,gc.apple.com,DIRECT
+    - DOMAIN-SUFFIX,gc.apple.com
     # 苹果 GSA
-    - DOMAIN-SUFFIX,gsa.apple.com,DIRECT
+    - DOMAIN-SUFFIX,gsa.apple.com
     # 苹果 ESS
-    - DOMAIN-SUFFIX,ess.apple.com,DIRECT
-    - DOMAIN-SUFFIX,service.ess.apple.com,DIRECT
-    - DOMAIN-SUFFIX,init.ess.apple.com,DIRECT
-    - DOMAIN-SUFFIX,static.ess.apple.com,DIRECT
+    - DOMAIN-SUFFIX,ess.apple.com
+    - DOMAIN-SUFFIX,service.ess.apple.com
+    - DOMAIN-SUFFIX,init.ess.apple.com
+    - DOMAIN-SUFFIX,static.ess.apple.com
     # 苹果推送通知服务
-    - DOMAIN-SUFFIX,gateway.sandbox.push.apple.com,DIRECT
-    - DOMAIN-SUFFIX,gateway.push.apple.com,DIRECT
+    - DOMAIN-SUFFIX,gateway.sandbox.push.apple.com
+    - DOMAIN-SUFFIX,push.apple.com
     # 苹果软件更新
-    - DOMAIN-SUFFIX,swscan.apple.com,DIRECT
-    - DOMAIN-SUFFIX,swquery.apple.com,DIRECT
+    - DOMAIN-SUFFIX,swscan.apple.com
+    - DOMAIN-SUFFIX,swquery.apple.com
     # 苹果 IP 范围
-    - IP-CIDR,17.0.0.0/8,DIRECT,no-resolve
-    - IP-CIDR,63.92.224.0/19,DIRECT,no-resolve
-    - IP-CIDR,65.199.22.0/23,DIRECT,no-resolve
-    - IP-CIDR,139.178.128.0/18,DIRECT,no-resolve
-    - IP-CIDR,144.178.0.0/19,DIRECT,no-resolve
-    - IP-CIDR,144.178.36.0/22,DIRECT,no-resolve
-    - IP-CIDR,144.178.48.0/20,DIRECT,no-resolve
-    - IP-CIDR,192.35.50.0/24,DIRECT,no-resolve
-    - IP-CIDR,198.183.17.0/24,DIRECT,no-resolve
-    - IP-CIDR,205.180.175.0/24,DIRECT,no-resolve
+    - IP-CIDR,17.0.0.0/8,no-resolve
+    - IP-CIDR,63.92.224.0/19,no-resolve
+    - IP-CIDR,65.199.22.0/23,no-resolve
+    - IP-CIDR,139.178.128.0/18,no-resolve
+    - IP-CIDR,144.178.0.0/19,no-resolve
+    - IP-CIDR,144.178.36.0/22,no-resolve
+    - IP-CIDR,144.178.48.0/20,no-resolve
+    - IP-CIDR,192.35.50.0/24,no-resolve
+    - IP-CIDR,198.183.17.0/24,no-resolve
+    - IP-CIDR,205.180.175.0/24,no-resolve
