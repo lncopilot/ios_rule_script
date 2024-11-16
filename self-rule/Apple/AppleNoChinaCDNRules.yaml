@@ -56,4 +56,4 @@ payload:
     - DOMAIN,mask.icloud.com
     # 其他
     - DOMAIN-SUFFIX,apple-dns.net
-    - DOMAIN-KEYWORD,ckdatabase.icloud.com
+    - DOMAIN,p53-ckdatabase.icloud.com
